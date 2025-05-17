@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct UsersView: View {
+    
+    @EnvironmentObject private var userVM: UserVM
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ScrollView(showsIndicators: false) {
+                LazyVStack(alignment: .leading, spacing: 0) {
+                    ForEach(userVM.users, id: \.self) { user in
+                        UserCardComponent(urlUser: user, isLastUser: userVM.users.last == user)
+                    }
+                    VStack {
+                        if (!userVM.isLastPage) {
+                            ProgressView()
+                        }
+                    }
+                    .frame(height: 10)
+                    .frame(maxWidth: .infinity)
+                    .onAppear {
+                        Task {
+                            await userVM.getUsers()
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 #Preview {
     UsersView()
+        .environmentObject(UserVM())
 }
