@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum ColorEnum: String {
-    case backgroundColor, primColor, secondColor, unselectedColor, lightGray
+    case backgroundColor, primColor, secondColor, black60, customLightGray, black87, borderColor, schemesOnSurface
     
     var color: Color {
         Color(rawValue)

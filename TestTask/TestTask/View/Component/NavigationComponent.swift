@@ -23,11 +23,11 @@ struct NavigationComponent: View {
                     HStack {
                         Image(screen.bottomNavigationIcon)
                             .renderingMode(.template)
-                            .foregroundStyle(screen == mainRouterVM.routerEnum ? ColorEnum.secondColor.color : ColorEnum.unselectedColor.color)
+                            .foregroundStyle(screen == mainRouterVM.routerEnum ? ColorEnum.secondColor.color : ColorEnum.black60.color)
                         
                         Text(screen.bottomNavigationDescription)
                             .font(FontEnum.nutino16.font)
-                            .foregroundStyle(screen == mainRouterVM.routerEnum ? ColorEnum.secondColor.color : ColorEnum.unselectedColor.color)
+                            .foregroundStyle(screen == mainRouterVM.routerEnum ? ColorEnum.secondColor.color : ColorEnum.black60.color)
                     }
                     
                 }
@@ -35,7 +35,7 @@ struct NavigationComponent: View {
                 Spacer()
             }
         }
-        .background(ColorEnum.lightGray.color)
+        .background(ColorEnum.customLightGray.color)
     }
 }
 

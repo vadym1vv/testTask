@@ -38,4 +38,13 @@ enum MainRouterEnum: CaseIterable {
             IconEnum.signUp.icon
         }
     }
+    
+    var pageTitle: String {
+        switch self {
+        case .users:
+            "Working with GET request"
+        case .signUp:
+            "Working with POST request"
+        }
+    }
 }

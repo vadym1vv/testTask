@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936E82602DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825F2DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift */; };
+		936E82612DD87880003756D1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825D2DD87880003756D1 /* APIClient.swift */; };
+		936E82622DD87880003756D1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825E2DD87880003756D1 /* APIService.swift */; };
+		936E82642DD87A28003756D1 /* UserUrlRequestApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82632DD87A28003756D1 /* UserUrlRequestApiService.swift */; };
+		936E82662DD87BCD003756D1 /* GetUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82652DD87BCD003756D1 /* GetUserModel.swift */; };
+		936E82692DD880B7003756D1 /* UserUrlRequestEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82682DD880B7003756D1 /* UserUrlRequestEnum.swift */; };
+		936E826B2DD882E2003756D1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E826A2DD882E2003756D1 /* NetworkError.swift */; };
+		936E826D2DD89DCF003756D1 /* ParentApiRequestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */; };
+		936E826F2DD89DF3003756D1 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E826E2DD89DF3003756D1 /* GlobalConstant.swift */; };
+		936E82712DD89FC8003756D1 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82702DD89FC8003756D1 /* UserVM.swift */; };
+		936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */; };
+		936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82742DD8B39D003756D1 /* UserCardComponent.swift */; };
 		93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD622DD787ED0048B1B9 /* IconEnum.swift */; };
 		93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD632DD787ED0048B1B9 /* FontEnum.swift */; };
 		93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */; };
@@ -23,6 +35,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936E825D2DD87880003756D1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		936E825E2DD87880003756D1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		936E825F2DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationHeaderKeyMiddleware.swift; sourceTree = "<group>"; };
+		936E82632DD87A28003756D1 /* UserUrlRequestApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUrlRequestApiService.swift; sourceTree = "<group>"; };
+		936E82652DD87BCD003756D1 /* GetUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserModel.swift; sourceTree = "<group>"; };
+		936E82682DD880B7003756D1 /* UserUrlRequestEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUrlRequestEnum.swift; sourceTree = "<group>"; };
+		936E826A2DD882E2003756D1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentApiRequestVM.swift; sourceTree = "<group>"; };
+		936E826E2DD89DF3003756D1 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
+		936E82702DD89FC8003756D1 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLoadingState.swift; sourceTree = "<group>"; };
+		936E82742DD8B39D003756D1 /* UserCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardComponent.swift; sourceTree = "<group>"; };
 		93C9AD472DD7752C0048B1B9 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C9AD622DD787ED0048B1B9 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
 		93C9AD632DD787ED0048B1B9 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
@@ -51,6 +75,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		936E825B2DD8786E003756D1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				936E825C2DD87879003756D1 /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		936E825C2DD87879003756D1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				936E825D2DD87880003756D1 /* APIClient.swift */,
+				936E825E2DD87880003756D1 /* APIService.swift */,
+				936E825F2DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift */,
+				936E82632DD87A28003756D1 /* UserUrlRequestApiService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		936E82672DD88097003756D1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				936E82682DD880B7003756D1 /* UserUrlRequestEnum.swift */,
+				936E826A2DD882E2003756D1 /* NetworkError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		93C9AD3E2DD7752C0048B1B9 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +122,12 @@
 		93C9AD642DD787ED0048B1B9 /* EnumModel */ = {
 			isa = PBXGroup;
 			children = (
+				936E82672DD88097003756D1 /* API */,
 				93C9AD622DD787ED0048B1B9 /* IconEnum.swift */,
 				93C9AD632DD787ED0048B1B9 /* FontEnum.swift */,
 				93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */,
 				93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */,
+				936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */,
 			);
 			path = EnumModel;
 			sourceTree = "<group>";
@@ -82,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				93C9AD642DD787ED0048B1B9 /* EnumModel */,
+				936E82652DD87BCD003756D1 /* GetUserModel.swift */,
+				936E826E2DD89DF3003756D1 /* GlobalConstant.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */,
+				936E82742DD8B39D003756D1 /* UserCardComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -117,6 +174,7 @@
 		93C9AD6E2DD787ED0048B1B9 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				936E825B2DD8786E003756D1 /* Service */,
 				93C9AD7F2DD78D240048B1B9 /* ViewModel */,
 				93C9AD652DD787ED0048B1B9 /* Model */,
 				93C9AD672DD787ED0048B1B9 /* SystemResources */,
@@ -132,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				93C9AD802DD78D440048B1B9 /* MainRouterVM.swift */,
+				936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */,
+				936E82702DD89FC8003756D1 /* UserVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -210,16 +270,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */,
+				936E82712DD89FC8003756D1 /* UserVM.swift in Sources */,
 				93C9AD8B2DD7900F0048B1B9 /* NavigationComponent.swift in Sources */,
 				93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */,
 				93C9AD832DD78DA60048B1B9 /* MainRouterEnum.swift in Sources */,
+				936E82692DD880B7003756D1 /* UserUrlRequestEnum.swift in Sources */,
 				93C9AD782DD789F50048B1B9 /* PreloaderView.swift in Sources */,
+				936E826F2DD89DF3003756D1 /* GlobalConstant.swift in Sources */,
 				93C9AD7A2DD78B120048B1B9 /* MainView.swift in Sources */,
 				93C9AD892DD78E540048B1B9 /* UsersView.swift in Sources */,
+				936E82602DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift in Sources */,
+				936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */,
+				936E82612DD87880003756D1 /* APIClient.swift in Sources */,
+				936E82622DD87880003756D1 /* APIService.swift in Sources */,
+				936E82662DD87BCD003756D1 /* GetUserModel.swift in Sources */,
+				936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */,
 				93C9AD872DD78E130048B1B9 /* SignUpView.swift in Sources */,
 				93C9AD7C2DD78BB20048B1B9 /* ColorEnum.swift in Sources */,
 				93C9AD812DD78D440048B1B9 /* MainRouterVM.swift in Sources */,
+				936E826B2DD882E2003756D1 /* NetworkError.swift in Sources */,
 				93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */,
+				936E826D2DD89DCF003756D1 /* ParentApiRequestVM.swift in Sources */,
+				936E82642DD87A28003756D1 /* UserUrlRequestApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
