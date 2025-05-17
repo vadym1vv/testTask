@@ -6,17 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD622DD787ED0048B1B9 /* IconEnum.swift */; };
+		93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD632DD787ED0048B1B9 /* FontEnum.swift */; };
+		93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */; };
+		93C9AD732DD787ED0048B1B9 /* NunitoSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C9AD662DD787ED0048B1B9 /* NunitoSans.ttf */; };
+		93C9AD742DD787ED0048B1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C9AD6A2DD787ED0048B1B9 /* Assets.xcassets */; };
+		93C9AD782DD789F50048B1B9 /* PreloaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD772DD789F50048B1B9 /* PreloaderView.swift */; };
+		93C9AD7A2DD78B120048B1B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD792DD78B120048B1B9 /* MainView.swift */; };
+		93C9AD7C2DD78BB20048B1B9 /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */; };
+		93C9AD812DD78D440048B1B9 /* MainRouterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD802DD78D440048B1B9 /* MainRouterVM.swift */; };
+		93C9AD832DD78DA60048B1B9 /* MainRouterEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */; };
+		93C9AD872DD78E130048B1B9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD862DD78E130048B1B9 /* SignUpView.swift */; };
+		93C9AD892DD78E540048B1B9 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD882DD78E540048B1B9 /* UsersView.swift */; };
+		93C9AD8B2DD7900F0048B1B9 /* NavigationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		93C9AD472DD7752C0048B1B9 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C9AD622DD787ED0048B1B9 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
+		93C9AD632DD787ED0048B1B9 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
+		93C9AD662DD787ED0048B1B9 /* NunitoSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NunitoSans.ttf; sourceTree = "<group>"; };
+		93C9AD6A2DD787ED0048B1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C9AD6C2DD787ED0048B1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskApp.swift; sourceTree = "<group>"; };
+		93C9AD772DD789F50048B1B9 /* PreloaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloaderView.swift; sourceTree = "<group>"; };
+		93C9AD792DD78B120048B1B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		93C9AD802DD78D440048B1B9 /* MainRouterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterVM.swift; sourceTree = "<group>"; };
+		93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterEnum.swift; sourceTree = "<group>"; };
+		93C9AD862DD78E130048B1B9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		93C9AD882DD78E540048B1B9 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		93C9AD492DD7752C0048B1B9 /* TestTask */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestTask;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		93C9AD442DD7752C0048B1B9 /* Frameworks */ = {
@@ -32,7 +54,7 @@
 		93C9AD3E2DD7752C0048B1B9 = {
 			isa = PBXGroup;
 			children = (
-				93C9AD492DD7752C0048B1B9 /* TestTask */,
+				93C9AD6E2DD787ED0048B1B9 /* TestTask */,
 				93C9AD482DD7752C0048B1B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +65,75 @@
 				93C9AD472DD7752C0048B1B9 /* TestTask.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		93C9AD642DD787ED0048B1B9 /* EnumModel */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD622DD787ED0048B1B9 /* IconEnum.swift */,
+				93C9AD632DD787ED0048B1B9 /* FontEnum.swift */,
+				93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */,
+				93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */,
+			);
+			path = EnumModel;
+			sourceTree = "<group>";
+		};
+		93C9AD652DD787ED0048B1B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD642DD787ED0048B1B9 /* EnumModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C9AD672DD787ED0048B1B9 /* SystemResources */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD662DD787ED0048B1B9 /* NunitoSans.ttf */,
+			);
+			path = SystemResources;
+			sourceTree = "<group>";
+		};
+		93C9AD682DD787ED0048B1B9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		93C9AD692DD787ED0048B1B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD682DD787ED0048B1B9 /* Component */,
+				93C9AD772DD789F50048B1B9 /* PreloaderView.swift */,
+				93C9AD792DD78B120048B1B9 /* MainView.swift */,
+				93C9AD862DD78E130048B1B9 /* SignUpView.swift */,
+				93C9AD882DD78E540048B1B9 /* UsersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C9AD6E2DD787ED0048B1B9 /* TestTask */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD7F2DD78D240048B1B9 /* ViewModel */,
+				93C9AD652DD787ED0048B1B9 /* Model */,
+				93C9AD672DD787ED0048B1B9 /* SystemResources */,
+				93C9AD692DD787ED0048B1B9 /* View */,
+				93C9AD6A2DD787ED0048B1B9 /* Assets.xcassets */,
+				93C9AD6C2DD787ED0048B1B9 /* Info.plist */,
+				93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */,
+			);
+			path = TestTask;
+			sourceTree = "<group>";
+		};
+		93C9AD7F2DD78D240048B1B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93C9AD802DD78D440048B1B9 /* MainRouterVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +150,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				93C9AD492DD7752C0048B1B9 /* TestTask */,
 			);
 			name = TestTask;
 			packageProductDependencies = (
@@ -109,6 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C9AD732DD787ED0048B1B9 /* NunitoSans.ttf in Resources */,
+				93C9AD742DD787ED0048B1B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */,
+				93C9AD8B2DD7900F0048B1B9 /* NavigationComponent.swift in Sources */,
+				93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */,
+				93C9AD832DD78DA60048B1B9 /* MainRouterEnum.swift in Sources */,
+				93C9AD782DD789F50048B1B9 /* PreloaderView.swift in Sources */,
+				93C9AD7A2DD78B120048B1B9 /* MainView.swift in Sources */,
+				93C9AD892DD78E540048B1B9 /* UsersView.swift in Sources */,
+				93C9AD872DD78E130048B1B9 /* SignUpView.swift in Sources */,
+				93C9AD7C2DD78BB20048B1B9 /* ColorEnum.swift in Sources */,
+				93C9AD812DD78D440048B1B9 /* MainRouterVM.swift in Sources */,
+				93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,10 +357,12 @@
 				DEVELOPMENT_TEAM = 665W8JZLV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,10 +390,12 @@
 				DEVELOPMENT_TEAM = 665W8JZLV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
