@@ -8,7 +8,7 @@
 import Foundation
 
 enum UserUrlRequestEnum: APIClient.APISpec {
-    case userByPage(page: Int, count: Int)
+    case userByPage(page: Int, count: Int), positions
     
     var endpoint: String {
         switch self {
@@ -20,12 +20,18 @@ enum UserUrlRequestEnum: APIClient.APISpec {
                 URLQueryItem(name: "count", value: String(count))
             ]
             return components.url?.absoluteString ?? ""
+        case .positions:
+            var components = URLComponents()
+            components.path = "/positions"
+            return components.url?.absoluteString ?? ""
         }
     }
     
     var method: APIClient.HttpMethod {
         switch self {
         case .userByPage:
+            return .get
+        case .positions:
             return .get
         }
     }
@@ -34,12 +40,14 @@ enum UserUrlRequestEnum: APIClient.APISpec {
         switch self {
         case .userByPage:
             GetUserModel.self
+        case .positions:
+            PositionsModel.self
         }
     }
     
     var body: Data? {
         switch self {
-        case .userByPage:
+        case .userByPage, .positions:
             return nil
         }
     }

@@ -31,6 +31,7 @@ struct MainView: View {
             NavigationComponent()
                 .environmentObject(mainRouterVM)
         }
+        .navigationBarHidden(true)
     }
 }
 

@@ -18,4 +18,14 @@ class UserUrlRequestApiService: APIService {
             return nil
         }
     }
+    
+    func fetchPositionsList() async -> PositionsModel? {
+        let apiSpec: UserUrlRequestEnum = .positions
+        do {
+            let positionsUrlRequestModel = try await apiClient?.sendRequest(apiSpec)
+            return positionsUrlRequestModel as? PositionsModel
+        } catch {
+            return nil
+        }
+    }
 }

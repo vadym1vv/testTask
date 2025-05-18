@@ -19,6 +19,11 @@
 		936E82712DD89FC8003756D1 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82702DD89FC8003756D1 /* UserVM.swift */; };
 		936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */; };
 		936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82742DD8B39D003756D1 /* UserCardComponent.swift */; };
+		936E82772DD8D001003756D1 /* PositionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82762DD8D001003756D1 /* PositionsModel.swift */; };
+		936E82792DD8EFA4003756D1 /* PositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82782DD8EFA4003756D1 /* PositionComponent.swift */; };
+		936E827B2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */; };
+		936E827D2DD8FC3D003756D1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E827C2DD8FC3D003756D1 /* CustomTextField.swift */; };
+		936E827F2DD8FE40003756D1 /* TextInputStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E827E2DD8FE40003756D1 /* TextInputStatusEnum.swift */; };
 		93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD622DD787ED0048B1B9 /* IconEnum.swift */; };
 		93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD632DD787ED0048B1B9 /* FontEnum.swift */; };
 		93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */; };
@@ -47,6 +52,11 @@
 		936E82702DD89FC8003756D1 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
 		936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLoadingState.swift; sourceTree = "<group>"; };
 		936E82742DD8B39D003756D1 /* UserCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardComponent.swift; sourceTree = "<group>"; };
+		936E82762DD8D001003756D1 /* PositionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsModel.swift; sourceTree = "<group>"; };
+		936E82782DD8EFA4003756D1 /* PositionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionComponent.swift; sourceTree = "<group>"; };
+		936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGroupCircleComponent.swift; sourceTree = "<group>"; };
+		936E827C2DD8FC3D003756D1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		936E827E2DD8FE40003756D1 /* TextInputStatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputStatusEnum.swift; sourceTree = "<group>"; };
 		93C9AD472DD7752C0048B1B9 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C9AD622DD787ED0048B1B9 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
 		93C9AD632DD787ED0048B1B9 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
@@ -128,6 +138,7 @@
 				93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */,
 				93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */,
 				936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */,
+				936E827E2DD8FE40003756D1 /* TextInputStatusEnum.swift */,
 			);
 			path = EnumModel;
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 				93C9AD642DD787ED0048B1B9 /* EnumModel */,
 				936E82652DD87BCD003756D1 /* GetUserModel.swift */,
 				936E826E2DD89DF3003756D1 /* GlobalConstant.swift */,
+				936E82762DD8D001003756D1 /* PositionsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +167,9 @@
 			children = (
 				93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */,
 				936E82742DD8B39D003756D1 /* UserCardComponent.swift */,
+				936E82782DD8EFA4003756D1 /* PositionComponent.swift */,
+				936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */,
+				936E827C2DD8FC3D003756D1 /* CustomTextField.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -277,15 +292,20 @@
 				936E82692DD880B7003756D1 /* UserUrlRequestEnum.swift in Sources */,
 				93C9AD782DD789F50048B1B9 /* PreloaderView.swift in Sources */,
 				936E826F2DD89DF3003756D1 /* GlobalConstant.swift in Sources */,
+				936E827D2DD8FC3D003756D1 /* CustomTextField.swift in Sources */,
 				93C9AD7A2DD78B120048B1B9 /* MainView.swift in Sources */,
 				93C9AD892DD78E540048B1B9 /* UsersView.swift in Sources */,
+				936E82772DD8D001003756D1 /* PositionsModel.swift in Sources */,
 				936E82602DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift in Sources */,
 				936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */,
+				936E827F2DD8FE40003756D1 /* TextInputStatusEnum.swift in Sources */,
 				936E82612DD87880003756D1 /* APIClient.swift in Sources */,
 				936E82622DD87880003756D1 /* APIService.swift in Sources */,
 				936E82662DD87BCD003756D1 /* GetUserModel.swift in Sources */,
 				936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */,
 				93C9AD872DD78E130048B1B9 /* SignUpView.swift in Sources */,
+				936E82792DD8EFA4003756D1 /* PositionComponent.swift in Sources */,
+				936E827B2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift in Sources */,
 				93C9AD7C2DD78BB20048B1B9 /* ColorEnum.swift in Sources */,
 				93C9AD812DD78D440048B1B9 /* MainRouterVM.swift in Sources */,
 				936E826B2DD882E2003756D1 /* NetworkError.swift in Sources */,
