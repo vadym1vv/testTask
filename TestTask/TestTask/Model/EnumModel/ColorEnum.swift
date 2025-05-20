@@ -7,8 +7,9 @@
 
 import SwiftUI
 
+//application color palette
 enum ColorEnum: String {
-    case backgroundColor, primColor, secondColor, black60, customLightGray, black87, borderColor, schemesOnSurface
+    case backgroundColor, primColor, secondColor, black60, customLightGray, black87, borderColor, schemesOnSurface, circleBorderColor, black48, error, secondaryDark, disabledButtonColor
     
     var color: Color {
         Color(rawValue)

@@ -43,9 +43,7 @@ struct UserCardComponent: View {
                 }
                 .foregroundStyle(ColorEnum.black87.color)
                 .font(FontEnum.nutino14.font)
-                
                 Spacer()
-                
             }
             .padding(.horizontal, 16)
             .padding(.top, 24)

@@ -1,6 +1,6 @@
 
 import Foundation
-
+// "API pattern based on: https://calincrist.com/the-perfect-ios-networking-layer-does-not-exists---part-1
 struct APIClient {
     private var baseURL: URL
     private var urlSession: URLSession
@@ -12,15 +12,28 @@ struct APIClient {
         self.middlewares = middlewares
     }
     
-    func sendRequest(_ apiSpec: APISpec) async throws -> DecodableType {
+    func sendRequest(_ apiSpec: APISpec, token: String? = nil) async throws -> DecodableType {
         guard let url = URL(string: baseURL.absoluteString + apiSpec.endpoint) else {
             throw NetworkError.invalidURL
         }
         
         var request = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: TimeInterval(floatLiteral: 30.0))
         request.httpMethod = apiSpec.method.rawValue
-        request.setValue("application/json", forHTTPHeaderField: "accept")
-        request.httpBody = apiSpec.body
+        
+        //multipart post condition settings
+        if apiSpec.isMultipart, let registrationRequest = apiSpec as? UserUrlRequestEnum {
+            let boundary = registrationRequest.multipartBoundary ?? "Boundary-\(UUID().uuidString)"
+            request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
+            
+            if case let .registrationRequest(model) = registrationRequest {
+                request.httpBody = createMultipartBody(model: model, boundary: boundary)
+            }
+            if let token {
+                request.setValue(token, forHTTPHeaderField: "token")
+            }
+        } else {
+            request.httpBody = apiSpec.body
+        }
         
         for middleware in middlewares {
             let tempRequest = request
@@ -50,15 +63,23 @@ struct APIClient {
         }
     }
     
+    //custom error handler
     private func handleResponse(data: Data, response: URLResponse) throws {
         guard let httpResponse = response as? HTTPURLResponse else {
             throw NetworkError.invalidResponse
         }
-        
-        guard(200...299).contains(httpResponse.statusCode) else {
-            throw NetworkError.requestFailed(statusCode: httpResponse.statusCode)
+        guard (200...299).contains(httpResponse.statusCode) else {
+            if (httpResponse.statusCode == 422 || httpResponse.statusCode == 409) {
+                do {
+                    let errorResponse = try JSONDecoder().decode(ValidationErrorResponse.self, from: data)
+                    throw errorResponse
+                }
+            }  else {
+                throw NetworkError.requestFailed(statusCode: httpResponse.statusCode)
+            }
         }
     }
+    
     
     func wrapCatchingErrors<R>(work: () async throws -> R) async throws -> R {
         do {
@@ -74,6 +95,8 @@ extension APIClient {
         var endpoint: String { get }
         var method: HttpMethod { get }
         var returnType: DecodableType.Type { get }
+        var isMultipart: Bool { get }
+        var multipartBoundary: String? { get }
         var body: Data? { get }
     }
     
@@ -82,7 +105,7 @@ extension APIClient {
     }
     
     enum HttpMethod: String, CaseIterable {
-        case get = "GET"
+        case get = "GET", post = "POST"
     }
 }
 

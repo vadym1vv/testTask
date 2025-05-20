@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930769652DDA065000FF3D3E /* UploadPhotoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930769642DDA065000FF3D3E /* UploadPhotoComponent.swift */; };
+		930769672DDA071C00FF3D3E /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930769662DDA071C00FF3D3E /* PhotoPicker.swift */; };
+		930769692DDA073A00FF3D3E /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930769682DDA073A00FF3D3E /* CameraPicker.swift */; };
+		9307696D2DDA3EAF00FF3D3E /* RegistrationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307696C2DDA3EAF00FF3D3E /* RegistrationRequestModel.swift */; };
+		9330EB2F2DDB3EFD005ECFB6 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB2E2DDB3EFD005ECFB6 /* TokenModel.swift */; };
+		9330EB312DDB4737005ECFB6 /* ValidationErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB302DDB4737005ECFB6 /* ValidationErrorResponse.swift */; };
+		9330EB332DDB5197005ECFB6 /* SuccessRegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB322DDB5197005ECFB6 /* SuccessRegistrationModel.swift */; };
+		9330EB392DDB99B7005ECFB6 /* InternetConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB382DDB99B7005ECFB6 /* InternetConnectionView.swift */; };
+		9330EB3D2DDB99E3005ECFB6 /* FailedToSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB3C2DDB99E3005ECFB6 /* FailedToSignUpView.swift */; };
+		9330EB3F2DDB99F3005ECFB6 /* SuccessSingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB3E2DDB99F3005ECFB6 /* SuccessSingUpView.swift */; };
+		9330EB432DDBA374005ECFB6 /* MessageAlertComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330EB422DDBA374005ECFB6 /* MessageAlertComponent.swift */; };
+		93506BE42DDBC1BD0078BFF6 /* NetworkMonitorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93506BE32DDBC1BD0078BFF6 /* NetworkMonitorVM.swift */; };
 		936E82602DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825F2DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift */; };
 		936E82612DD87880003756D1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825D2DD87880003756D1 /* APIClient.swift */; };
 		936E82622DD87880003756D1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E825E2DD87880003756D1 /* APIService.swift */; };
@@ -17,8 +29,11 @@
 		936E826D2DD89DCF003756D1 /* ParentApiRequestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */; };
 		936E826F2DD89DF3003756D1 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E826E2DD89DF3003756D1 /* GlobalConstant.swift */; };
 		936E82712DD89FC8003756D1 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82702DD89FC8003756D1 /* UserVM.swift */; };
-		936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */; };
 		936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82742DD8B39D003756D1 /* UserCardComponent.swift */; };
+		936E82772DD8D001003756D1 /* PositionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82762DD8D001003756D1 /* PositionsModel.swift */; };
+		936E82792DD8EFA4003756D1 /* PositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E82782DD8EFA4003756D1 /* PositionComponent.swift */; };
+		936E827B2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */; };
+		936E827D2DD8FC3D003756D1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E827C2DD8FC3D003756D1 /* CustomTextField.swift */; };
 		93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD622DD787ED0048B1B9 /* IconEnum.swift */; };
 		93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD632DD787ED0048B1B9 /* FontEnum.swift */; };
 		93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9AD6D2DD787ED0048B1B9 /* TestTaskApp.swift */; };
@@ -35,6 +50,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930769642DDA065000FF3D3E /* UploadPhotoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoComponent.swift; sourceTree = "<group>"; };
+		930769662DDA071C00FF3D3E /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		930769682DDA073A00FF3D3E /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		9307696C2DDA3EAF00FF3D3E /* RegistrationRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequestModel.swift; sourceTree = "<group>"; };
+		9330EB2E2DDB3EFD005ECFB6 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		9330EB302DDB4737005ECFB6 /* ValidationErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorResponse.swift; sourceTree = "<group>"; };
+		9330EB322DDB5197005ECFB6 /* SuccessRegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessRegistrationModel.swift; sourceTree = "<group>"; };
+		9330EB382DDB99B7005ECFB6 /* InternetConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionView.swift; sourceTree = "<group>"; };
+		9330EB3C2DDB99E3005ECFB6 /* FailedToSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedToSignUpView.swift; sourceTree = "<group>"; };
+		9330EB3E2DDB99F3005ECFB6 /* SuccessSingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessSingUpView.swift; sourceTree = "<group>"; };
+		9330EB422DDBA374005ECFB6 /* MessageAlertComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAlertComponent.swift; sourceTree = "<group>"; };
+		93506BE32DDBC1BD0078BFF6 /* NetworkMonitorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitorVM.swift; sourceTree = "<group>"; };
 		936E825D2DD87880003756D1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		936E825E2DD87880003756D1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		936E825F2DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationHeaderKeyMiddleware.swift; sourceTree = "<group>"; };
@@ -45,8 +72,11 @@
 		936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentApiRequestVM.swift; sourceTree = "<group>"; };
 		936E826E2DD89DF3003756D1 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
 		936E82702DD89FC8003756D1 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
-		936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLoadingState.swift; sourceTree = "<group>"; };
 		936E82742DD8B39D003756D1 /* UserCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardComponent.swift; sourceTree = "<group>"; };
+		936E82762DD8D001003756D1 /* PositionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsModel.swift; sourceTree = "<group>"; };
+		936E82782DD8EFA4003756D1 /* PositionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionComponent.swift; sourceTree = "<group>"; };
+		936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGroupCircleComponent.swift; sourceTree = "<group>"; };
+		936E827C2DD8FC3D003756D1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		93C9AD472DD7752C0048B1B9 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C9AD622DD787ED0048B1B9 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
 		93C9AD632DD787ED0048B1B9 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
@@ -79,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				936E825C2DD87879003756D1 /* API */,
+				930769662DDA071C00FF3D3E /* PhotoPicker.swift */,
+				930769682DDA073A00FF3D3E /* CameraPicker.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -127,7 +159,7 @@
 				93C9AD632DD787ED0048B1B9 /* FontEnum.swift */,
 				93C9AD7B2DD78BB20048B1B9 /* ColorEnum.swift */,
 				93C9AD822DD78DA60048B1B9 /* MainRouterEnum.swift */,
-				936E82722DD8A0C0003756D1 /* CurrentLoadingState.swift */,
+				9330EB302DDB4737005ECFB6 /* ValidationErrorResponse.swift */,
 			);
 			path = EnumModel;
 			sourceTree = "<group>";
@@ -138,6 +170,10 @@
 				93C9AD642DD787ED0048B1B9 /* EnumModel */,
 				936E82652DD87BCD003756D1 /* GetUserModel.swift */,
 				936E826E2DD89DF3003756D1 /* GlobalConstant.swift */,
+				936E82762DD8D001003756D1 /* PositionsModel.swift */,
+				9307696C2DDA3EAF00FF3D3E /* RegistrationRequestModel.swift */,
+				9330EB2E2DDB3EFD005ECFB6 /* TokenModel.swift */,
+				9330EB322DDB5197005ECFB6 /* SuccessRegistrationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +191,11 @@
 			children = (
 				93C9AD8A2DD7900F0048B1B9 /* NavigationComponent.swift */,
 				936E82742DD8B39D003756D1 /* UserCardComponent.swift */,
+				936E82782DD8EFA4003756D1 /* PositionComponent.swift */,
+				936E827A2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift */,
+				936E827C2DD8FC3D003756D1 /* CustomTextField.swift */,
+				930769642DDA065000FF3D3E /* UploadPhotoComponent.swift */,
+				9330EB422DDBA374005ECFB6 /* MessageAlertComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -167,6 +208,9 @@
 				93C9AD792DD78B120048B1B9 /* MainView.swift */,
 				93C9AD862DD78E130048B1B9 /* SignUpView.swift */,
 				93C9AD882DD78E540048B1B9 /* UsersView.swift */,
+				9330EB382DDB99B7005ECFB6 /* InternetConnectionView.swift */,
+				9330EB3C2DDB99E3005ECFB6 /* FailedToSignUpView.swift */,
+				9330EB3E2DDB99F3005ECFB6 /* SuccessSingUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +236,7 @@
 				93C9AD802DD78D440048B1B9 /* MainRouterVM.swift */,
 				936E826C2DD89DCF003756D1 /* ParentApiRequestVM.swift */,
 				936E82702DD89FC8003756D1 /* UserVM.swift */,
+				93506BE32DDBC1BD0078BFF6 /* NetworkMonitorVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -270,25 +315,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C9AD6F2DD787ED0048B1B9 /* IconEnum.swift in Sources */,
+				9330EB332DDB5197005ECFB6 /* SuccessRegistrationModel.swift in Sources */,
+				9330EB2F2DDB3EFD005ECFB6 /* TokenModel.swift in Sources */,
 				936E82712DD89FC8003756D1 /* UserVM.swift in Sources */,
+				9330EB3D2DDB99E3005ECFB6 /* FailedToSignUpView.swift in Sources */,
+				930769692DDA073A00FF3D3E /* CameraPicker.swift in Sources */,
+				9330EB392DDB99B7005ECFB6 /* InternetConnectionView.swift in Sources */,
 				93C9AD8B2DD7900F0048B1B9 /* NavigationComponent.swift in Sources */,
+				9330EB432DDBA374005ECFB6 /* MessageAlertComponent.swift in Sources */,
 				93C9AD702DD787ED0048B1B9 /* FontEnum.swift in Sources */,
 				93C9AD832DD78DA60048B1B9 /* MainRouterEnum.swift in Sources */,
 				936E82692DD880B7003756D1 /* UserUrlRequestEnum.swift in Sources */,
 				93C9AD782DD789F50048B1B9 /* PreloaderView.swift in Sources */,
 				936E826F2DD89DF3003756D1 /* GlobalConstant.swift in Sources */,
+				93506BE42DDBC1BD0078BFF6 /* NetworkMonitorVM.swift in Sources */,
+				930769672DDA071C00FF3D3E /* PhotoPicker.swift in Sources */,
+				936E827D2DD8FC3D003756D1 /* CustomTextField.swift in Sources */,
 				93C9AD7A2DD78B120048B1B9 /* MainView.swift in Sources */,
 				93C9AD892DD78E540048B1B9 /* UsersView.swift in Sources */,
+				936E82772DD8D001003756D1 /* PositionsModel.swift in Sources */,
 				936E82602DD87880003756D1 /* AuthorizationHeaderKeyMiddleware.swift in Sources */,
 				936E82752DD8B39D003756D1 /* UserCardComponent.swift in Sources */,
 				936E82612DD87880003756D1 /* APIClient.swift in Sources */,
+				9307696D2DDA3EAF00FF3D3E /* RegistrationRequestModel.swift in Sources */,
+				930769652DDA065000FF3D3E /* UploadPhotoComponent.swift in Sources */,
 				936E82622DD87880003756D1 /* APIService.swift in Sources */,
 				936E82662DD87BCD003756D1 /* GetUserModel.swift in Sources */,
-				936E82732DD8A0C0003756D1 /* CurrentLoadingState.swift in Sources */,
 				93C9AD872DD78E130048B1B9 /* SignUpView.swift in Sources */,
+				936E82792DD8EFA4003756D1 /* PositionComponent.swift in Sources */,
+				9330EB312DDB4737005ECFB6 /* ValidationErrorResponse.swift in Sources */,
+				936E827B2DD8F3F4003756D1 /* RadioGroupCircleComponent.swift in Sources */,
 				93C9AD7C2DD78BB20048B1B9 /* ColorEnum.swift in Sources */,
 				93C9AD812DD78D440048B1B9 /* MainRouterVM.swift in Sources */,
 				936E826B2DD882E2003756D1 /* NetworkError.swift in Sources */,
+				9330EB3F2DDB99F3005ECFB6 /* SuccessSingUpView.swift in Sources */,
 				93C9AD722DD787ED0048B1B9 /* TestTaskApp.swift in Sources */,
 				936E826D2DD89DCF003756D1 /* ParentApiRequestVM.swift in Sources */,
 				936E82642DD87A28003756D1 /* UserUrlRequestApiService.swift in Sources */,
@@ -430,6 +490,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to take photos for uploading to the server.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to select photos for uploading to the server.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,6 +525,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to take photos for uploading to the server.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to select photos for uploading to the server.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
