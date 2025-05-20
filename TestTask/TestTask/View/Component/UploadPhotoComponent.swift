@@ -34,7 +34,7 @@ struct UploadPhotoComponent: View {
                     .foregroundStyle(ColorEnum.secondaryDark.color)
             }
             .padding(.trailing)
-            .confirmationDialog("Chose how you want to add a photo", isPresented: $showImageSelectOptions, titleVisibility: .visible, actions: {
+            .confirmationDialog("Cho0se how you want to add a photo", isPresented: $showImageSelectOptions, titleVisibility: .visible, actions: {
                 Button(action: {
                     let photos = PHPhotoLibrary.authorizationStatus()
                     if photos == .notDetermined {
