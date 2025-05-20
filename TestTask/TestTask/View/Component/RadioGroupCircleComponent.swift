@@ -12,7 +12,6 @@ struct RadioGroupCircleComponent: View {
     var isSelected: Bool
     
     var body: some View {
-        
             Circle()
             .frame(width: 14, height: 14)
             .foregroundStyle(isSelected ? ColorEnum.secondColor.color : .white)
@@ -29,9 +28,6 @@ struct RadioGroupCircleComponent: View {
                 }
             }
             .padding(17)
-            
-                
-        
     }
 }
 

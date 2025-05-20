@@ -28,6 +28,10 @@ struct UsersView: View {
                     .onAppear {
                         Task {
                             await userVM.getUsers()
+                            // Because there is a limit of 6 users per request, the VStack does not disappear and the next request is not triggered. This issue occurs only on iPad due to its screen size; on iPhone, it works correctly. additional getUsers() call fix this problem. ONLY FOR IPAD
+                            if (UIDevice.current.userInterfaceIdiom == .pad && userVM.users.count < 12) {
+                                await userVM.getUsers()
+                            }
                         }
                     }
                 }

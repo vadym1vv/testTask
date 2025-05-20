@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//responsible for Nunito Sans size picker
 enum FontEnum: CaseIterable {
     
     case nutino20, nutino16, nutino18, nutino14

@@ -8,9 +8,11 @@
 import Foundation
 import SwiftUI
 
+//main navigation enum
 enum MainRouterEnum: CaseIterable {
     case users, signUp
     
+    //displays selected screen
     @ViewBuilder
     var screen: some View {
         switch self {
@@ -21,6 +23,7 @@ enum MainRouterEnum: CaseIterable {
         }
     }
     
+    //navigation tab(button) description
     var bottomNavigationDescription: String {
         switch self {
         case .users:
@@ -30,6 +33,7 @@ enum MainRouterEnum: CaseIterable {
         }
     }
     
+    //navigation tab(button) icon
     var bottomNavigationIcon: String {
         switch self {
         case .users:
@@ -39,6 +43,7 @@ enum MainRouterEnum: CaseIterable {
         }
     }
     
+    //navigation page title
     var pageTitle: String {
         switch self {
         case .users:

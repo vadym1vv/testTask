@@ -26,16 +26,13 @@ struct PositionComponent: View {
                     } label: {
                         HStack(spacing: 8) {
                             RadioGroupCircleComponent(isSelected: position == selectedPosition)
-                             Text(name)
+                            Text(name)
                                 .font(FontEnum.nutino16.font)
-                                
                         }
                     }
                 }
             }
-            
         }
-//        .frame(maxWidth: .infinity)
         .foregroundStyle(ColorEnum.black87.color)
     }
 }

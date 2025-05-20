@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//responsible for navigation between users/sign up
 class MainRouterVM: ObservableObject {
     @Published var routerEnum: MainRouterEnum = .users
     

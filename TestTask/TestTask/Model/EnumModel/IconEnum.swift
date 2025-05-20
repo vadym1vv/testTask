@@ -7,6 +7,7 @@
 
 import Foundation
 
+//responsible for all icons
 enum IconEnum: String {
     case emailIsAlreadyRegistered, noInternetConnection, noUsers, userRegistered, logo, signUp, users
     
